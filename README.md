@@ -2,6 +2,7 @@
 
 Código em linguagem M que você pode usar para manipular os dados de vendas no Power Query do Excel:
 
+````
 let
     // Passo 1: Importar os Dados de Vendas
     Source = Excel.Workbook(File.Contents("C:\Caminho\Para\Seu\Arquivo.xlsx"), null, true),
@@ -25,5 +26,7 @@ let
     Fonte = Excel.CurrentWorkbook(){[Name="Relatório_Criado"]}[Content]
 in
     Fonte
+
+    ````
 
 Substitua "C:\Caminho\Para\Seu\Arquivo.xlsx" pelo caminho real do seu arquivo de dados de vendas. Além disso, ajuste os passos de acordo com as especificações e necessidades específicas do seu relatório de vendas.
