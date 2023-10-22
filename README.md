@@ -1,6 +1,6 @@
 # DESAFIO-POWERBI-DIO
 
-Código em linguagem M que você pode usar para manipular os dados de vendas no Power Query do Excel:
+📊 Código em linguagem M que você pode usar para manipular os dados de vendas no Power Query do Excel:
 
 ````
 let
